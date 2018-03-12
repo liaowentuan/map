@@ -5078,7 +5078,7 @@
       tdir = bdmapcfg.tiles_dir.length>0?bdmapcfg.tiles_dir:bdmapcfg.home + "tile";
       var map_url = "http://10.10.96.209/maps/smallLevel/"+ b +"/" +d +"/qt=tile&x="+ d +"&y=" + a + "&z=" + b + "&styles=pl&scaler=1&udt=20180131" ;
       if(b > 16){
-      	map_url = "http://10.10.96.209/maps/smallLevel/"+ b +"/" +d +"/qt=tile&x="+ d +"&y=" + a + "&z=" + b + "&styles=pl&scaler=1&udt=20180131" ;
+      	map_url = "http://10.10.96.209/maps/largeLevel/"+ b +"/" +d +"/qt=tile&x="+ d +"&y=" + a + "&z=" + b + "&styles=pl&scaler=1&udt=20180131" ;
 			// "baidumapv2/tiles/17/24791/5001.jpg"
       }
       return map_url /*guoguo 使用本地的瓦片 */
